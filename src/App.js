@@ -6,6 +6,8 @@ import store from './store/store';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import Navbar from './components/Navbar';
+import HellowWorld from './HellowWorld';
+
 
 function App() {
     return (
@@ -19,6 +21,7 @@ function App() {
                     </Routes>
                 </BrowserRouter>
             </Provider>
+            {/* <HellowWorld name= "manoj"/> */}
         </div>
     );
 }
